@@ -1,0 +1,31 @@
+{
+  "name": "minio-bulk-uploader",
+  "version": "1.0.0",
+  "description": "A bulk file uploader for Minio",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smth-for/minio-bulk-uploader.git"
+  },
+  "keywords": [
+    "minio",
+    "bulk",
+    "upload",
+    "node"
+  ],
+  "author": "Michael Musso <mmusso@smth.it> (https://smth.it)",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smth-for/minio-bulk-uploader/issues"
+  },
+  "homepage": "https://github.com/smth-for/minio-bulk-uploader#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "minio": "^7.0.18",
+    "walk": "^2.3.14"
+  }
+}
